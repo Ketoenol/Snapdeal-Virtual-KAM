@@ -1,0 +1,28 @@
+{
+  "name": "snapdeal-virtual-tryon-backend",
+  "version": "1.0.0",
+  "description": "Backend for Snapdeal Virtual Try-On",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "snapdeal",
+    "virtual-try-on",
+    "backend"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^3.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "multer": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
