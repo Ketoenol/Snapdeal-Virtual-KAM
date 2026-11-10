@@ -13,7 +13,7 @@ const API = `${import.meta.env.VITE_API_URL || "http://localhost:5000"}/api/chat
 const metrics = [
   { label: "Monthly Sales", value: "₹1,35,000", change: "-32.5%", icon: TrendingDown },
   { label: "Total Orders", value: "270", change: "-32.5%", icon: ShoppingCart },
-  { label: "Cancellation Rate", value: "14%", change: "+9 pp", icon: Activity },
+  { label: "Cancellation Rate", value: "14%", change: "+6 pp", icon: Activity },
   { label: "Out of Stock", value: "18", change: "+13", icon: Package }
 ];
 
