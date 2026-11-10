@@ -7,7 +7,8 @@ import {
 } from "lucide-react";
 import "./App.css";
 
-const API = "http://localhost:5000/api/chat";
+// Updated API URL for local development and production deployment
+const API = `${import.meta.env.VITE_API_URL || "http://localhost:5000"}/api/chat`;
 
 const metrics = [
   { label: "Monthly Sales", value: "₹1,35,000", change: "-32.5%", icon: TrendingDown },
@@ -635,4 +636,3 @@ function App() {
 }
 
 export default App;
-
